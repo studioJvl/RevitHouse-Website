@@ -1,0 +1,80 @@
+nav {
+  background-color: rgba(245, 229, 209, 0.8);
+}
+
+.hr-logo-div {
+  display: flex;
+  flex-direction: column;
+  height: 78px;
+  width: 150px;
+  min-width: 150px;
+  min-height: 78px;
+  border-radius: 20px;
+  border-style: none;
+  box-shadow: gray 1px 1px 2px;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(252, 241, 206, 0.5);
+  padding: 0;
+}
+
+.nav-brand {
+  font-family: "Open Sans", "sans-serif";
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-shadow: gray 2px 2px 3px;
+  box-shadow: gray 1px 1px 3px;
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 5px;
+  border-color: white;
+  background-color: rgb(221, 199, 171);
+  margin-top: 10px;
+  padding: 2px 6px;
+  transition: background-color 0.5s, border-color 0.5s, color 0.5s;
+}
+
+.nav-brand:hover {
+  background-color: white;
+  border-color: rgb(221, 199, 171);
+  color: rgb(221, 199, 171);
+}
+
+.brand-title {
+  font-family: "Open Sans";
+  font-size: 20px;
+  color: white;
+  text-shadow: gray 2px 2px 3px;
+  text-decoration: underline;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.nav-link {
+  color: white;
+  text-shadow: gray 2px 2px 2px;
+}
+
+.search-button {
+  background-color: rgb(221, 199, 171);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-color: white;
+  color: white;
+  padding: 8px 5px;
+  box-shadow: gray 1px 1px 2px;
+}
+
+.search-button:hover {
+  background-color: rgb(177, 159, 137);
+  border-color: white;
+}
+
+.search-input {
+  border: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  box-shadow: gray 1px 1px 2px;
+}

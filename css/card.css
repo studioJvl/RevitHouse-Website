@@ -1,0 +1,23 @@
+.text-bg {
+  background-color: rgb(223, 206, 171);
+  border-style: solid;
+  border-color: lightgray;
+}
+
+.btn-primary {
+  background-color: rgb(177, 151, 100);
+  border-style: solid;
+  border-color: white;
+}
+
+.btn-primary:hover {
+  background-color: rgb(255, 236, 202);
+  color: rgb(177, 151, 100);
+  border-style: solid;
+  border-color: rgb(177, 151, 100);
+  padding: auto 5px;
+}
+
+.card {
+  background-color: rgba(255, 231, 199, 0.7);
+}
